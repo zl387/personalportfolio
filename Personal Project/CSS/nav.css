@@ -1,0 +1,22 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family:"montserrat";
+  font-weight: 300;
+  color:gray;
+}
+
+.navigation a {
+  color:gray;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.navigation a:hover {
+  color:pink;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px white;
+}
+
+@media all and (max-width:768px) {
+  .selection {
+  font-size: 20px;
+  }
